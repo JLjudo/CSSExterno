@@ -1,0 +1,42 @@
+@font-face{
+    font-family:Fasthand-Regular;
+    scr: url(Fasthand-Regular.ttf);
+}
+
+#Square{
+	width: auto;
+	height: auto;
+	border-style: dotted;
+	border-width: 2px;
+	border-color: blue;
+
+	background-color: green;
+
+	/*margin-left: 150px;
+	margin-top: 100px;   
+	margin-bottom: 100px;
+	/*margin-right: 200px;*/
+
+	/*margin: 100px;*/ /* Pega todas as bordas. */
+	      /* top  right bottom  left  */
+	margin: 100px 150px  50px   150px;
+
+	padding-top: 50px;
+	padding-left: 550px;
+	padding-right: 550px;
+	padding-bottom: 50px;
+
+	/*padding: 40px 160px 20px 40px;*/
+}
+#Circle{
+	width: 200px;
+	height: 200px;
+
+	border: solid 3px green;
+	border-radius: 100px;
+	text-align: center;
+
+	font-family:Fasthand-Regular;
+	font-size: 20px;
+
+}
